@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblWelcomeDessert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:gravity="center_horizontal"
+        android:text="@string/welcomeDessert"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+    <ImageButton
+        android:id="@+id/imgCheesecake"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/cheesecake"/>
+    <Button
+        android:id="@+id/btnCheesecake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descCheesecake"
+        android:textSize="20sp"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="#FFFFFF"
+        android:textColor="@color/colorAccent"/>
+
+    <ImageButton
+        android:id="@+id/imgPieCrust"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/piecrust"/>
+    <Button
+        android:id="@+id/btnPieCrust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descPieCrust"
+        android:textSize="20sp"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="#FFFFFF"
+        android:textColor="@color/colorAccent"/>
+
+    <ImageButton
+        android:id="@+id/imgApples"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/apples"/>
+    <Button
+        android:id="@+id/btnAppleCrisp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descAppleCrisp"
+        android:textSize="20sp"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="#FFFFFF"
+        android:textColor="@color/colorAccent"/>
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">The Root</string>
+    <string name="Welcome">Welcome to The Root</string>
+    <string name="welcomeBeef">Beef Recipes</string>
+    <string name="welcomeChicken">Chicken Recipes</string>
+    <string name="welcomePasta">Pasta Recipes</string>
+    <string name="welcomeDessert">Dessert Recipes</string>
+    <string name="tagLine">A recipe sharing app for families</string>
+    <string name="goCategory">Recipe by Category</string>
+    <string name="goAuthor">Recipe by Author</string>
+    <string name="goInfo">Info</string>
+    <string name="goSearch">Search Recipes</string>
+    <string name="goBeef">Beef</string>
+    <string name="descRibs">Braised Beef Short Ribs with Parmesan Polenta</string>
+    <string name="goChicken">Chicken</string>
+    <string name="descThaiChix">Thai Chicken Lettuce Wraps</string>
+    <string name="descOvenFriedChix">Oven Fried Chicken</string>
+    <string name="goPasta">Pasta</string>
+    <string name="descPasta">Fettuccini with Peas and Pancetta</string>
+    <string name="goDessert">Dessert</string>
+    <string name="descCheesecake">Mini Ramekin Cheesecakes</string>
+    <string name="descPieCrust">Homemade Pie Crust</string>
+    <string name="descAppleCrisp">Grandmas Apple Crisp</string>
+    <string name="goAlicia">Alicia</string>
+    <string name="goGrandma">Grandma Barb</string>
+    <string name="mainMenu">Main Menu</string>
+    <string name="exit">Exit</string>
+
+</resources>

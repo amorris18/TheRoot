@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/lblWelcomeChicken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:gravity="center_horizontal"
+        android:text="@string/welcomeChicken"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <ImageButton
+        android:id="@+id/imgLettuceWrap"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/lettucewrap" />
+
+    <Button
+        android:id="@+id/btnChickenRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/descThaiChix"
+        android:textSize="20sp"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="#FFFFFF"
+        android:textColor="@color/colorAccent"/>
+
+
+</LinearLayout>
