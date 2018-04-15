@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 public class BeefActivity extends AppCompatActivity {
 
@@ -12,6 +14,19 @@ public class BeefActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_beef);
+        //Add a listener to the button to take you to the categories
+        Button btnRibs = (Button) findViewById(R.id.btnRibs);
+        btnRibs.setOnClickListener(new View.OnClickListener() {
+                                           @Override
+                                           public void onClick(View v) {
+                                               goBeefRibs();
+                                           }
+                                       }
+        );
+    }
+    private void goBeefRibs() {
+        Intent intent = new Intent(BeefActivity.this, RecipeBeefShortRibsActivity.class);
+        this.startActivity(intent);
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -20,7 +35,7 @@ public class BeefActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         switch(item.getItemId()) {
             case R.id.mnuMain:
-                startActivity(new Intent(getApplicationContext(), MainMenuActivity.class));
+                startActivity(new Intent(getApplicationContext(), CategoryActivity.class));
                 return true;
             case R.id.mnuExit:
                 finish();

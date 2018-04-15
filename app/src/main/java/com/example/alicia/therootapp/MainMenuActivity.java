@@ -12,7 +12,7 @@ public class MainMenuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
-        //Add a listener to the button to take you to the temp converter
+        //Add a listener to the button to take you to the categories
         Button btnCategory = (Button) findViewById(R.id.btnCategory);
         btnCategory.setOnClickListener(new View.OnClickListener() {
                                            @Override
@@ -21,6 +21,7 @@ public class MainMenuActivity extends AppCompatActivity {
                                            }
                                        }
         );
+        //add a listener to the button to take you to authors
         Button btnAuthor = (Button) findViewById(R.id.btnAuthor);
         btnAuthor.setOnClickListener(new View.OnClickListener() {
             @Override

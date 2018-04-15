@@ -21,7 +21,8 @@
         <activity android:name=".BeefActivity" />
         <activity android:name=".ChickenActivity" />
         <activity android:name=".PastaActivity" />
-        <activity android:name=".DessertActivity"></activity>
+        <activity android:name=".DessertActivity" />
+        <activity android:name=".RecipeBeefShortRibsActivity"></activity>
     </application>
 
 </manifest>
